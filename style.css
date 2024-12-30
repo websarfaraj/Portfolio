@@ -174,7 +174,7 @@ body {
 }
 
 .navbar .menu-button:hover {
-  /* color:#fff; */
+  color:#fff;
   background: linear-gradient(145deg, rgb(106 103 206), rgb(252 99 107));
 }
 
@@ -1047,7 +1047,7 @@ body {
 }
 
 .parent-foam input {
-  width: 400px;
+  width: 280px;
   padding: 10px;
   border: 2px solid #fdfefe;
   border-radius: 4px;
