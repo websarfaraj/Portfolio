@@ -24,8 +24,13 @@
         text-align: center;
     }
 
+
     .jone {
         padding: 20px;
+    }
+
+    .jone h1 {
+        font-size: 30px;
     }
 
     .icons div {
@@ -60,12 +65,38 @@
         font-size: 13px;
     }
 
-    .card-container {
-        grid-template-columns: repeat(2, 1fr);
+    .parent-container1 {
+        display: block;
+
     }
 
+    .logo-box {
+        margin-bottom: 30px;
+
+    }
+
+
+    .card-container {
+        display: block;
+    }
+
+    .card{
+        margin-bottom: 30px;
+        width: 100%;
+
+    }
+
+    .card-image{
+        width: 100%;
+        height: auto    ;
+    }
+
+    .card-image img{
+        width: 100%;
+        height: auto;
+    }
     .heading h1 {
-        font-size: 28px;  
+        font-size: 28px;
     }
 
     .navbar-resume {
@@ -91,6 +122,8 @@
         margin: 10px 0;
     }
 
+   
+
     .carousel {
         flex-direction: column;
     }
@@ -110,7 +143,7 @@
 
     .carousel-controls {
         display: flex;
-        justify-content: space-between;
+        /* justify-content: space-between; */
         width: 100%;
     }
 
@@ -133,19 +166,22 @@
     }
 
     .parent-content {
-        padding: 10px;
+        flex-direction: column;
+        /* padding: 10px; */
     }
 
     .card-container1 {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
+        display:block;
+        /* flex-direction: column;
+        align-items: center; */
     }
 
-    .card1 {
-        width: 90%;
-        margin-bottom: 20px;
+    .card1{
+        margin-bottom: 30px;
+        width: 100%;
+
     }
+
 
     .text h4 {
         font-size: 1.2em;
@@ -183,12 +219,18 @@
         box-sizing: border-box;
     }
 
+    .parent-foam {
+        padding: 20px;
+        flex-direction: column;
+        width: 100%;
+    }
+
     .form-group {
         width: 100%;
     }
 
     button {
-        width: 100%;
+        /* width: 100%; */
         padding: 12px;
         font-size: 16px;
     }
@@ -228,4 +270,3 @@
         font-size: 16px;
     }
 }
-
