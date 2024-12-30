@@ -1,0 +1,231 @@
+@media (max-width: 768px) {
+    .navbar .menu {
+        display: none;
+        flex-direction: column;
+        gap: 15px;
+        position: absolute;
+        top: 60px;
+        right: 20px;
+        background-color: #FFF;
+        padding: 10px;
+        border-radius: 5px;
+    }
+
+    .navbar .menu.active {
+        display: flex;
+    }
+
+    .menu-toggle {
+        display: flex;
+    }
+
+    #jone-lee {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .jone {
+        padding: 20px;
+    }
+
+    .icons div {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .icons img {
+        width: 30px;
+        height: 30px;
+        margin: 5px;
+    }
+
+    .banner-image img {
+        width: 100%;
+        height: auto;
+    }
+
+    .heading-box h2 {
+        font-size: 24px;
+    }
+
+    .logo-box img {
+        max-width: 60px;
+    }
+
+    .logo-box h3 {
+        font-size: 16px;
+    }
+
+    .logo-box p {
+        font-size: 13px;
+    }
+
+    .card-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .heading h1 {
+        font-size: 28px;  
+    }
+
+    .navbar-resume {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .child-resume {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .child-container {
+        width: 100%;
+        max-width: 600px;
+        padding: 10px;
+    }
+
+    .child-card {
+        padding: 10px;
+        width: 100%;
+        margin: 10px 0;
+    }
+
+    .carousel {
+        flex-direction: column;
+    }
+
+    .carousel-item {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .Testimonial-heading h2 {
+        font-size: 1.5rem;
+    }
+
+    .Testimonial-heading h3 {
+        font-size: 1rem;
+    }
+
+    .carousel-controls {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+    }
+
+    .prev,
+    .next {
+        font-size: 1rem;
+    }
+
+    .review h3 {
+        font-size: 1.2rem;
+    }
+
+    .review p {
+        font-size: 0.9rem;
+    }
+
+    .profile-img img {
+        width: 80px;
+        height: 80px;
+    }
+
+    .parent-content {
+        padding: 10px;
+    }
+
+    .card-container1 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card1 {
+        width: 90%;
+        margin-bottom: 20px;
+    }
+
+    .text h4 {
+        font-size: 1.2em;
+    }
+
+    .text h2 {
+        font-size: 1.5em;
+    }
+
+    .parent-container6 {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .child-container7 {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .text-info1 h4,
+    .text-info1 h5,
+    .text-info1 p {
+        margin-bottom: 10px;
+    }
+
+    .contact-icon a {
+        margin: 5px;
+    }
+
+    .contact-form {
+        width: 100%;
+        padding: 20px;
+        box-sizing: border-box;
+    }
+
+    .form-group {
+        width: 100%;
+    }
+
+    button {
+        width: 100%;
+        padding: 12px;
+        font-size: 16px;
+    }
+
+    .row {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer-child {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .footer-column {
+        width: 100%;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .icon a {
+        margin-right: 15px;
+    }
+
+    .logo img {
+        max-width: 150px;
+    }
+
+    .footer {
+        padding: 15px;
+        font-size: 14px;
+    }
+
+    .f-text {
+        display: block;
+        margin-top: 5px;
+        font-size: 16px;
+    }
+}
+
