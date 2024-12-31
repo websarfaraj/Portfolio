@@ -134,8 +134,10 @@ body {
   padding: 10px 20px;
   background-color: #dce1e4;
   color: #fff;
-  position:fixed;
+  position:sticy;
   width:100%;
+  top:0;
+  z-index:1000;
 }
 
 .navbar .logo {
