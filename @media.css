@@ -319,4 +319,10 @@
         margin-top: 5px;
         font-size: 16px;
     }
+    element.style {
+    display: flex;
+    opacity: 1;
+    flex-flow: wrap;
+}
+
 }
