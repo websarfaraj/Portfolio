@@ -1015,15 +1015,16 @@ body {
 .image {
   border-radius: 10px;
   overflow: hidden;
+  /* box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2); */
+
 }
 
 .image img {
-  width: 500px;
-  height: 250px;
+  /* width: 500px; */
+  /* height: 250px; */
   object-fit: cover;
   border-radius: 10px;
   transition: transform 0.3s ease-in-out;
-  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
 
 }
 
@@ -1102,23 +1103,24 @@ body {
   margin-left: 20px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   width: 100%;
-  height: auto;
-  max-width: 900px;
+  height: max-content;
+  /* height: auto; */
+  /* max-width: 900px; */
 }
 
 .parent-foam {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
-  gap: 20px;
 }
 
 .parent-foam input {
-  width: 280px;
-  padding: 10px;
+  width: 100%;
+  padding: 15px;
   border: 2px solid #fdfefe;
   border-radius: 4px;
   font-size: 14px;
+  margin: 16px 0 ;
 
 }
 
@@ -1149,10 +1151,11 @@ body {
 .form-group input,
 .form-group textarea {
   width: 100%;
-  padding: 10px;
+  padding: 15px;
   border: 2px solid #fdfefe;
   border-radius: 4px;
   font-size: 14px;
+  margin-bottom: 30px;
 }
 
 .form-group textarea {
@@ -1162,7 +1165,7 @@ body {
 
 .form-group button {
   width: 100%;
-  padding: 10px;
+  padding: 20px;
   color: #1E2125;
   border: none;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);

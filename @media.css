@@ -33,15 +33,31 @@
         font-size: 30px;
     }
 
-    .icons div {
+    /* .icons div {
         flex-direction: column;
         align-items: center;
+    } */
+
+    .icons{
+        flex-direction: column;
+    }
+
+    .icons1{
+        /* flex-direction: column; */
+        
     }
 
     .icons img {
-        width: 30px;
-        height: 30px;
+        padding: 0;
         margin: 5px;
+    }
+
+    .icons2-img1{
+        padding: 0;
+        margin: 5px;
+        /* width: 100%; */
+        /* height: auto; */
+        max-width: 70px;
     }
 
     .banner-image img {
@@ -122,6 +138,21 @@
         margin: 10px 0;
     }
 
+    .card-image1{
+        width: 100%;
+        height: auto;
+    }
+
+    .card-image1 img{
+        width: 100%;
+        height: auto;
+    }
+
+    .card-info1 p{
+        font-size: 20px;
+        line-height: 27px;
+    }
+
    
 
     .carousel {
@@ -131,6 +162,10 @@
     .carousel-item {
         width: 100%;
         margin-bottom: 20px;
+    }
+
+    .carousel-dots{
+        top:233px ;
     }
 
     .Testimonial-heading h2 {
@@ -143,7 +178,7 @@
 
     .carousel-controls {
         display: flex;
-        /* justify-content: space-between; */
+        justify-content: space-between;
         width: 100%;
     }
 
@@ -172,8 +207,8 @@
 
     .card-container1 {
         display:block;
-        /* flex-direction: column;
-        align-items: center; */
+        padding: 20px;
+      
     }
 
     .card1{
@@ -194,6 +229,7 @@
     .parent-container6 {
         flex-direction: column;
         align-items: center;
+        padding: 20px 20px;
     }
 
     .child-container7 {
@@ -201,12 +237,23 @@
         align-items: center;
         text-align: center;
         margin-bottom: 20px;
+        padding: 30px;
+        width: 100%;
+        height: auto;
     }
 
+    .contact-icon img{
+        padding: 0;
+    }
+
+    .image img{
+        width: 100%;
+        height: auto;
+    }
     .text-info1 h4,
     .text-info1 h5,
     .text-info1 p {
-        margin-bottom: 10px;
+        margin: 10px;
     }
 
     .contact-icon a {
@@ -216,7 +263,11 @@
     .contact-form {
         width: 100%;
         padding: 20px;
-        box-sizing: border-box;
+        margin-left: 0;
+    }
+
+    .foam-heading h2{
+        font-size: 36px;
     }
 
     .parent-foam {
@@ -230,7 +281,6 @@
     }
 
     button {
-        /* width: 100%; */
         padding: 12px;
         font-size: 16px;
     }
