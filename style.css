@@ -17,7 +17,7 @@ body {
   justify-content: center;
   align-items: center;
   margin-top: 100px;
-  border-bottom: .5px black solid;
+  border-bottom: 0.5px rgb(195, 193, 185) solid;
   padding: 50px;
 }
 
@@ -204,7 +204,7 @@ body {
 
 
 #work{
-  border-bottom: .5px black solid;
+  border-bottom: 0.5px rgb(195, 193, 185) solid;
   padding: 60px;
 
 }
@@ -339,7 +339,8 @@ body {
 
 #portfolio {
   padding: 6% 5%;
-  border-bottom: 0.5px black solid;
+  border-bottom: 0.5px rgb(195, 193, 185) solid;
+
 
 }
 
@@ -436,7 +437,8 @@ body {
 #My-Resume {
   font-family: Poppins, sans-serif;
   padding: 6% 5%;
-  border-bottom: 0.5px black solid;
+  border-bottom: 0.5px rgb(195, 193, 185) solid;
+
 }
 
 /* My Resume heading */
@@ -661,8 +663,7 @@ body {
 #Testimonial {
   font-family: Poppins, sans-serif;
   padding: 6% 5%;
-  border-bottom: 0.5px black solid;
-
+  border-bottom: 0.5px rgb(195, 193, 185) solid;
 }
 
 /* Testimonial heading */
@@ -908,8 +909,7 @@ body {
 
 
 #my-blog1{
-  border-bottom: 0.5px black solid;
-  padding: 60px;
+  border-bottom: 0.5px rgb(195, 193, 185) solid;
 }
 
 .text h4 {
@@ -997,9 +997,7 @@ body {
 
 /* Contact Details */
 #contact-faom2{
-  border-bottom: 0.5px black solid;
-  padding: 60px;
-
+  border-bottom: 0.5px rgb(195, 193, 185) solid;
 
 }
 .foam-heading h5 {
@@ -1210,7 +1208,8 @@ body {
 /* Footer Details */
 
 #my-footer{
-  border-bottom: 0.5px black solid;
+  border-bottom: 0.5px rgb(195, 193, 185) solid;
+  
 }
 
 .row {
