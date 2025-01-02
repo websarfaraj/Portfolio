@@ -16,8 +16,9 @@ body {
   padding: 0 5%;
   justify-content: center;
   align-items: center;
-  margin-top:30px;
-
+  margin-top: 100px;
+  border-bottom: .5px black solid;
+  padding: 50px;
 }
 
 .jone h4 {
@@ -71,6 +72,8 @@ body {
   margin-bottom: -10px;
 }
 
+
+
 .icons2-img1 {
   width: 80px;
   height: 60px;
@@ -105,6 +108,7 @@ body {
   position: relative;
   z-index: 1;
   width: 100%;
+
 }
 
 .banner-image img {
@@ -132,12 +136,12 @@ body {
   justify-content: space-between;
   align-items: center;
   padding: 10px 20px;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  z-index: 1000;
   background-color: #dce1e4;
   color: #fff;
-  position: fixed;
-  width:100%;
-  top:0;
-  z-index:1000;
 }
 
 .navbar .logo {
@@ -197,6 +201,13 @@ body {
   margin: 3px 0;
 }
 /* Logo-Boxes Details */
+
+
+#work{
+  border-bottom: .5px black solid;
+  padding: 60px;
+
+}
 
 .heading-box h5 {
   color: #f9004d;
@@ -328,7 +339,7 @@ body {
 
 #portfolio {
   padding: 6% 5%;
-  border-bottom: 0.5px #dce1e4 solid;
+  border-bottom: 0.5px black solid;
 
 }
 
@@ -425,7 +436,7 @@ body {
 #My-Resume {
   font-family: Poppins, sans-serif;
   padding: 6% 5%;
-  border-bottom: 0.5px #dce1e4 solid;
+  border-bottom: 0.5px black solid;
 }
 
 /* My Resume heading */
@@ -650,7 +661,7 @@ body {
 #Testimonial {
   font-family: Poppins, sans-serif;
   padding: 6% 5%;
-  border-bottom: 0.5px #dce1e4 solid;
+  border-bottom: 0.5px black solid;
 
 }
 
@@ -859,7 +870,7 @@ body {
 .review p {
   font-size: 18px;
   color: #3c3e41;
-  margin-top: 45px;
+  margin-top: 24px;
   line-height: 30px;
 }
 
@@ -894,6 +905,12 @@ body {
 }
 
 /* My-Blog Details*/
+
+
+#my-blog1{
+  border-bottom: 0.5px black solid;
+  padding: 60px;
+}
 
 .text h4 {
   color: #ff004d;
@@ -979,7 +996,12 @@ body {
 }
 
 /* Contact Details */
+#contact-faom2{
+  border-bottom: 0.5px black solid;
+  padding: 60px;
 
+
+}
 .foam-heading h5 {
   color: #f9004d;
   font-size: 14px;
@@ -1110,8 +1132,6 @@ body {
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   width: 100%;
   height: max-content;
-  /* height: auto; */
-  /* max-width: 900px; */
 }
 
 .parent-foam {
@@ -1188,6 +1208,10 @@ body {
 
 
 /* Footer Details */
+
+#my-footer{
+  border-bottom: 0.5px black solid;
+}
 
 .row {
   display: flex;

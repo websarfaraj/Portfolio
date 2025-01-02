@@ -1,3 +1,4 @@
+/* Navbar */
 @media (max-width: 768px) {
     .navbar .menu {
         display: none;
@@ -15,50 +16,57 @@
         display: flex;
     }
 
+
     .menu-toggle {
         display: flex;
     }
 
+    /* Banner */
+
     #jone-lee {
         flex-direction: column;
-        text-align: center;
+        text-align: left;
     }
 
 
-    .jone {
-        padding: 20px;
-    }
-
+   
     .jone h1 {
         font-size: 30px;
     }
 
-    /* .icons div {
+    .jone p{
+        line-height: 24px;
+    }
+
+    .icons {
         flex-direction: column;
-        align-items: center;
-    } */
-
-    .icons{
-        flex-direction: column;
+        align-items: start;
     }
 
-    .icons1{
-        /* flex-direction: column; */
-        
-    }
 
-    .icons img {
-        padding: 0;
+
+    .icons1 img {
+        padding: 5px;
         margin: 5px;
+        max-width: 50px;
+        margin-bottom: 10px;
     }
 
-    .icons2-img1{
-        padding: 0;
-        margin: 5px;
-        /* width: 100%; */
-        /* height: auto; */
-        max-width: 70px;
+    .social-icons2 h3{
+        margin-top: 65px;
+        font-weight: 400;
     }
+
+   .social-icons2 img{
+    position: relative;
+    top: 0;
+    left: 0;
+    padding: 14px 12px;
+    margin: 5px;
+    max-width: 60px;
+    margin-bottom: 10px;
+    margin-left:0 ;
+   }
 
     .banner-image img {
         width: 100%;
@@ -66,7 +74,14 @@
     }
 
     .heading-box h2 {
-        font-size: 24px;
+        text-align: center;
+        font-size: 40px;
+    }
+
+    .heading-box h5 {
+        font-size: 15px;
+        text-align: center;
+        margin-top: 15px;
     }
 
     .logo-box img {
@@ -75,6 +90,7 @@
 
     .logo-box h3 {
         font-size: 16px;
+
     }
 
     .logo-box p {
@@ -91,28 +107,35 @@
 
     }
 
+    /* Cards */
 
     .card-container {
         display: block;
     }
 
-    .card{
+    .card {
         margin-bottom: 30px;
         width: 100%;
 
     }
 
-    .card-image{
-        width: 100%;
-        height: auto    ;
-    }
-
-    .card-image img{
+    .card-image {
         width: 100%;
         height: auto;
     }
+
+    .card-image img {
+        width: 100%;
+        height: auto;
+    }
+
     .heading h1 {
         font-size: 28px;
+    }
+
+    .navbar{
+        padding: 5px 5px;
+
     }
 
     .navbar-resume {
@@ -138,34 +161,35 @@
         margin: 10px 0;
     }
 
-    .card-image1{
+    .card-image1 {
         width: 100%;
         height: auto;
     }
 
-    .card-image1 img{
+    .card-image1 img {
         width: 100%;
         height: auto;
     }
 
-    .card-info1 p{
+    .card-info1 p {
         font-size: 20px;
         line-height: 27px;
     }
 
-   
+    /* Carousal */
+
+    #Testimonial {
+        flex-direction: column;
+    }
 
     .carousel {
         flex-direction: column;
     }
 
     .carousel-item {
+        flex-flow: wrap;
         width: 100%;
         margin-bottom: 20px;
-    }
-
-    .carousel-dots{
-        top:233px ;
     }
 
     .Testimonial-heading h2 {
@@ -177,9 +201,15 @@
     }
 
     .carousel-controls {
-        display: flex;
-        justify-content: space-between;
         width: 100%;
+        gap: 10px;
+        margin-top: 25px;
+    }
+
+    .review {
+        flex-flow: wrap;
+        width: 100%;
+        height: 400px;
     }
 
     .prev,
@@ -192,26 +222,32 @@
     }
 
     .review p {
-        font-size: 0.9rem;
+        font-size: 16px;
     }
 
     .profile-img img {
-        width: 80px;
-        height: 80px;
+        width: 100%;
+        height: 227px;
     }
+
+    .carousel-container {
+        display: block;
+        margin: auto;
+    }
+
+    /* Again Cards */
 
     .parent-content {
         flex-direction: column;
-        /* padding: 10px; */
     }
 
     .card-container1 {
-        display:block;
+        display: block;
         padding: 20px;
-      
+
     }
 
-    .card1{
+    .card1 {
         margin-bottom: 30px;
         width: 100%;
 
@@ -225,6 +261,8 @@
     .text h2 {
         font-size: 1.5em;
     }
+
+    /* Faom */
 
     .parent-container6 {
         flex-direction: column;
@@ -242,14 +280,15 @@
         height: auto;
     }
 
-    .contact-icon img{
+    .contact-icon img {
         padding: 0;
     }
 
-    .image img{
+    .image img {
         width: 100%;
         height: auto;
     }
+
     .text-info1 h4,
     .text-info1 h5,
     .text-info1 p {
@@ -266,7 +305,7 @@
         margin-left: 0;
     }
 
-    .foam-heading h2{
+    .foam-heading h2 {
         font-size: 36px;
     }
 
@@ -285,6 +324,7 @@
         font-size: 16px;
     }
 
+    /* Footer */
     .row {
         flex-direction: column;
         align-items: center;
@@ -319,13 +359,4 @@
         margin-top: 5px;
         font-size: 16px;
     }
-    element.style {
-    display: flex;
-    opacity: 1;
-    flex-flow: wrap;
-}
-    .review {
-    width: 100%;
-    height: auto;}
-
 }
