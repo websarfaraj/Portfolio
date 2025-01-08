@@ -161,14 +161,14 @@ body {
 
 .navbar .menu li a {
   text-decoration: none;
-  color:#0d1013;
+  color: #0d1013;
   font-size: 13px;
   font-family: Montserrat, sans-serif;
   padding: 5px 10px;
 
 }
 
-.navbar .menu li a:hover{
+.navbar .menu li a:hover {
   color: #ff004d;
 
 }
@@ -184,8 +184,40 @@ body {
 }
 
 .navbar .menu-button:hover {
-  color:#fff;
+  color: #fff;
   background: linear-gradient(145deg, rgb(106 103 206), rgb(252 99 107));
+}
+
+.button-manu{
+  border-radius: 20px;
+  overflow: hidden;
+  width: 50px;
+  height: 50px;
+  object-fit: contain;
+  font-size: 13px;
+  font-weight: 500;
+  border: none;
+  cursor: pointer;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.buttons{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+
+}
+
+.button-manu img{
+ width: 30px;
+ height: 30px;
+}
+
+.button-manu:hover {
+  color: #fff;
+  background: linear-gradient(145deg, rgb(106 103 206), rgb(252 99 107));
+
 }
 
 .menu-toggle {
@@ -197,13 +229,14 @@ body {
 .menu-toggle div {
   width: 25px;
   height: 3px;
-  background-color:#f9004d;
+  background-color: #f9004d;
   margin: 3px 0;
 }
+
 /* Logo-Boxes Details */
 
 
-#work{
+#work {
   border-bottom: 0.5px rgb(195, 193, 185) solid;
   padding: 60px;
 
@@ -237,74 +270,74 @@ body {
   line-height: 30px;
 }
 
-.text1 h3{
+.text1 h3 {
   font-size: 24px;
   font-family: Poppins, sans-serif;
   margin: 0px 0px 22px;
 
 }
 
-.text1 p{
+.text1 p {
   font-size: 16px;
   font-family: Poppins, sans-serif;
 }
 
-.text2 h3{
+.text2 h3 {
   font-size: 24px;
   font-family: Poppins, sans-serif;
   margin: 0px 0px 22px;
 
 }
 
-.text2 p{
+.text2 p {
   font-size: 16px;
   font-family: Poppins, sans-serif;
 }
 
-.text3 h3{
+.text3 h3 {
   font-size: 24px;
   font-family: Poppins, sans-serif;
   margin: 0px 0px 22px;
 
 }
 
-.text3 p{
+.text3 p {
   font-size: 16px;
   font-family: Poppins, sans-serif;
 }
 
-.text4 h3{
+.text4 h3 {
   font-size: 24px;
   font-family: Poppins, sans-serif;
   margin: 0px 0px 22px;
 
 }
 
-.text4 p{
+.text4 p {
   font-size: 16px;
   font-family: Poppins, sans-serif;
 }
 
-.text5 h3{
+.text5 h3 {
   font-size: 24px;
   font-family: Poppins, sans-serif;
   margin: 0px 0px 22px;
 
 }
 
-.text5 p{
+.text5 p {
   font-size: 16px;
   font-family: Poppins, sans-serif;
 }
 
-.text6 h3{
+.text6 h3 {
   font-size: 24px;
   font-family: Poppins, sans-serif;
   margin: 0px 0px 22px;
 
 }
 
-.text6 p{
+.text6 p {
   font-size: 16px;
   font-family: Poppins, sans-serif;
 }
@@ -319,7 +352,7 @@ body {
   font-family: montserrat, sans-serif;
   padding: 30px;
   border-radius: 10px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 4px 10px rgba(255, 255, 255, 0.6);
 }
 
 .logo-box img {
@@ -378,7 +411,7 @@ body {
   background: #f0f3f5;
   border-radius: 10px;
   padding: 30px;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 4px 10px rgba(255, 255, 255, 0.6);
   transition: transform 0.9s ease, box-shadow 0.3s ease;
   cursor: pointer;
   width: 100%;
@@ -398,7 +431,7 @@ body {
   object-fit: cover;
   border-radius: 10px;
   transition: transform 0.3s ease-in-out;
-  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 4px 10px rgba(255, 255, 255, 0.6);
 }
 
 .card-image img:hover {
@@ -496,7 +529,7 @@ body {
 .nav-button:hover {
   color: #ff004d;
   background-color: #f4f4f4;
-  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.15);
+  box-shadow: 0 4px 10px rgba(255, 255, 255, 0.6);
 }
 
 .nav-button.active {
@@ -504,7 +537,7 @@ body {
   color: #ff004d;
   font-weight: bold;
   padding: 40px 10px;
-  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.15);
+  box-shadow: 0 4px 10px rgba(255, 255, 255, 0.6);
 }
 
 /* Child-Resume */
@@ -553,13 +586,13 @@ body {
   position: relative;
   width: 100%;
   height: auto;
-  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 4px 10px rgba(255, 255, 255, 0.6);
 
 }
 
 .child-card:hover {
   transition: 0.4s;
-  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 4px 10px rgba(255, 255, 255, 0.6);
   background: linear-gradient(145deg, rgb(106 103 206), rgb(252 99 107));
 
 }
@@ -729,7 +762,7 @@ body {
   margin-right: 40px;
   padding: 30px 30px;
   background-color: #eef2f4;
-  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 4px 10px rgba(255, 255, 255, 0.6);
   border-radius: 20px;
   width: 395px;
   height: 455px;
@@ -788,7 +821,7 @@ body {
   width: 60px;
   height: 60px;
   line-height: 30px;
-  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 4px 10px rgba(255, 255, 255, 0.6);
   border: 0 none;
   top: -2px;
   z-index: 3;
@@ -846,7 +879,7 @@ body {
   margin-top: 48px;
   padding: 50px 50px;
   background-color: #f0f3f5;
-  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 4px 10px rgba(255, 255, 255, 0.6);
   border-radius: 20px;
 }
 
@@ -908,7 +941,7 @@ body {
 /* My-Blog Details*/
 
 
-#my-blog1{
+#my-blog1 {
   border-bottom: 0.5px rgb(195, 193, 185) solid;
 }
 
@@ -944,7 +977,7 @@ body {
   background: #f0f3f5;
   border-radius: 10px;
   padding: 30px;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 4px 10px rgba(255, 255, 255, 0.6);
   transition: transform 0.9s ease, box-shadow 0.3s ease;
   cursor: pointer;
   width: 100%;
@@ -963,7 +996,7 @@ body {
   object-fit: cover;
   border-radius: 20px;
   transition: transform 0.3s ease-in-out;
-  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 4px 10px rgba(255, 255, 255, 0.6);
 }
 
 .card-image1 img:hover {
@@ -996,10 +1029,11 @@ body {
 }
 
 /* Contact Details */
-#contact-faom2{
+#contact-faom2 {
   border-bottom: 0.5px rgb(195, 193, 185) solid;
 
 }
+
 .foam-heading h5 {
   color: #f9004d;
   font-size: 14px;
@@ -1032,7 +1066,7 @@ body {
   background: #f0f3f5;
   border-radius: 10px;
   padding: 30px;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 4px 10px rgba(255, 255, 255, 0.6);
   transition: transfoam 0.9s ease;
   box-shadow: 0.3s ease;
   cursor: pointer;
@@ -1127,7 +1161,7 @@ body {
   padding: 20px;
   border-radius: 10px;
   margin-left: 20px;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 4px 10px rgba(255, 255, 255, 0.6);
   width: 100%;
   height: max-content;
 }
@@ -1144,7 +1178,7 @@ body {
   border: 2px solid #fdfefe;
   border-radius: 4px;
   font-size: 14px;
-  margin: 16px 0 ;
+  margin: 16px 0;
 
 }
 
@@ -1192,7 +1226,7 @@ body {
   padding: 20px;
   color: #1E2125;
   border: none;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 4px 10px rgba(255, 255, 255, 0.6);
   border-radius: 4px;
   font-size: 16px;
   cursor: pointer;
@@ -1207,9 +1241,10 @@ body {
 
 /* Footer Details */
 
-#my-footer{
+#my-footer {
   border-bottom: 0.5px rgb(195, 193, 185) solid;
-  
+  padding: 0 19px 19px;
+
 }
 
 .row {
@@ -1241,9 +1276,28 @@ footer {
   flex-wrap: wrap;
 }
 
-.footer-column {
+.footer-column li b::after {
+  content: '';
+  width: 0;
+  height: 2px;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  background-color: red;
+  transition: width 0.5s ease;
+
+}
+
+.footer-column ul li b:hover::after {
+  width: 100%;
+
+}
+
+.footer-column b {
   margin: 10px;
   min-width: 150px;
+  position: relative;
+  padding-bottom: 5px;
 }
 
 .footer-column h4 {
@@ -1281,6 +1335,17 @@ footer {
 
 /*Last-Footer Details */
 
+.footer b {
+  background-color: #dce1e4;
+  color: #3C3E41;
+  text-align: center;
+  font-size: 16px;
+  padding-bottom: 5px;
+  font-family: poppins, sans-serif;
+  position: relative;
+  width: 100%;
+}
+
 .footer {
   background-color: #dce1e4;
   color: #3C3E41;
@@ -1288,7 +1353,25 @@ footer {
   font-size: 16px;
   padding: 40px 0;
   font-family: poppins, sans-serif;
-  position: relative;
-  bottom: 0;
   width: 100%;
+}
+
+.footer p b::after {
+  content: '';
+  width: 0;
+  height: 2px;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  background-color: red;
+  transition: width 0.5s ease;
+}
+
+.footer b:hover::after {
+  width: 100%;
+}
+
+.footer p b:hover {
+  color: #FF014F;
+  transition: all 0.3s ease;
 }
