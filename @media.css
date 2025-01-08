@@ -29,12 +29,12 @@
     }
 
 
-   
+
     .jone h1 {
         font-size: 30px;
     }
 
-    .jone p{
+    .jone p {
         line-height: 24px;
     }
 
@@ -44,7 +44,6 @@
     }
 
 
-
     .icons1 img {
         padding: 5px;
         margin: 5px;
@@ -52,21 +51,12 @@
         margin-bottom: 10px;
     }
 
-    .social-icons2 h3{
-        margin-top: 65px;
-        font-weight: 400;
+    .social-icons2 img {
+        padding: 5px;
+        margin: 5px;
+        max-width: 50px;
+        margin-bottom: 92px;
     }
-
-   .social-icons2 img{
-    position: relative;
-    top: 0;
-    left: 0;
-    padding: 14px 12px;
-    margin: 5px;
-    max-width: 60px;
-    margin-bottom: 10px;
-    margin-left:0 ;
-   }
 
     .banner-image img {
         width: 100%;
@@ -133,7 +123,7 @@
         font-size: 28px;
     }
 
-    .navbar{
+    .navbar {
         padding: 5px 5px;
 
     }

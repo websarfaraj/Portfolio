@@ -72,8 +72,6 @@ body {
   margin-bottom: -10px;
 }
 
-
-
 .icons2-img1 {
   width: 80px;
   height: 60px;
@@ -101,6 +99,7 @@ body {
   border-radius: 10px;
   font-size: 60px;
 }
+
 
 /* image{} */
 
@@ -132,8 +131,8 @@ body {
 
 .navbar {
   display: flex;
-  border-bottom: 1px solid #3c3e41;
-  justify-content: space-between;
+  border-bottom: 0.5px rgb(195, 193, 185) solid;
+  justify-content: space-around;
   align-items: center;
   padding: 10px 20px;
   width: 100%;
@@ -181,6 +180,7 @@ body {
   font-size: 1em;
   border-radius: 5px;
   cursor: pointer;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
 }
 
 .navbar .menu-button:hover {
@@ -246,6 +246,8 @@ body {
   color: #f9004d;
   font-size: 14px;
   font-weight: 500;
+  padding-left: 30px;
+  padding-top: 20px;
   font-family: Montserrat, sans-serif;
 
 }
@@ -253,6 +255,7 @@ body {
 .heading-box h2 {
   color: #3C3E41;
   font-size: 60px;
+  padding-left: 30px;
   font-family: Montserrat, sans-serif;
   font-weight: 700;
   margin: 15px 0px 0px;
@@ -1243,7 +1246,7 @@ body {
 
 #my-footer {
   border-bottom: 0.5px rgb(195, 193, 185) solid;
-  padding: 0 19px 19px;
+  padding: 0 52px 19px;
 
 }
 
@@ -1255,12 +1258,10 @@ body {
 
 .icon img {
   max-width: 70px;
-  padding: 15px 20px;
   border: 1px solid none;
   background-color: #f6f8f9;
   border-radius: 10px;
   font-size: 60px;
-  margin: 15px 10px 10px;
 }
 
 
